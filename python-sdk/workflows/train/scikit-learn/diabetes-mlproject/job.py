@@ -17,7 +17,7 @@ project_uri = str(prefix.joinpath("src"))
 
 # azure ml settings
 experiment_name = "sklearn-diabetes-example"
-compute_name = "cpu-cluster"
+compute_name = "cpu-cluster2"
 
 # setup mlflow tracking
 mlflow.set_tracking_uri(ws.get_mlflow_tracking_uri())

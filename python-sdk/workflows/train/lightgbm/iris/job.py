@@ -21,7 +21,7 @@ environment_file = str(prefix.joinpath("requirements.txt"))
 # azure ml settings
 environment_name = "lightgbm-iris-example"
 experiment_name = "lightgbm-iris-example"
-compute_name = "cpu-cluster"
+compute_name = "cpu-cluster2"
 
 # create environment
 env = Environment.from_pip_requirements(environment_name, environment_file)

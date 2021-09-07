@@ -21,7 +21,7 @@ environment_file = str(prefix.joinpath("environment.yml"))
 # azure ml settings
 environment_name = "sklearn-example"
 experiment_name = "sklearn-diabetes-example"
-compute_name = "cpu-cluster"
+compute_name = "cpu-cluster2"
 
 # create environment
 env = Environment.from_conda_specification(
